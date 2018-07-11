@@ -6,7 +6,7 @@ from chainer.training import extensions
 import numpy as np
 
 batch_size = 10  # バッチサイズ10
-uses_device = -1  # GPU#0を使用 、CPUの場合は-1
+uses_device = -1  # GPU#0を使用,CPUの場合-1
 
 
 class NMIST_Conv_NN(chainer.Chain):
